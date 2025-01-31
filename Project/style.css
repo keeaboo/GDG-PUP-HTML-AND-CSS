@@ -147,8 +147,16 @@ article > div {
 /* Step 17: Blog Post Image Styles */
 .post-image img {
   width: 100px; 
-    height: 60px; 
+    height: 100px; 
     object-fit: cover;
+}
+
+.post {
+  display:flex; 
+    justify-content:space-between;
+    align-items:center;
+    max-width: 100%; 
+    margin: 10px;
 }
 
 /* Step 18: Blog Post Content Container Styles */
@@ -262,6 +270,10 @@ article > div {
 /* Responsive Design */
 /* Step 31: Responsive Navbar Styles */
 @media (max-width: 768px) {
+  body{
+    padding-top: 220px;
+  }
+
   .navbar-container {
     flex-direction: column; 
       text-align: center;
