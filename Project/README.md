@@ -56,6 +56,7 @@ It is ideal for developers who are learning:
 ---
 
 ## 📁 Folder Structure
+
 ```bash
 Project
 ├── assets/
@@ -72,43 +73,47 @@ Project
 ```
 
 ## 📄 File Details
+
 1. **index.html**
-Contains the HTML structure for the project.
-Includes semantic tags like `<header>`, `<nav>`, `<main>`, `<aside>`, and `<footer>`.
-Organized with instructional comments to guide developers through each section.
+   Contains the HTML structure for the project.
+   Includes semantic tags like `<header>`, `<nav>`, `<main>`, `<aside>`, and `<footer>`.
+   Organized with instructional comments to guide developers through each section.
 
 2. **styles.css**
-Defines the styling rules for the project.
-Includes modular and responsive styling using CSS variables, flexbox, and media queries.
-Styled with step-by-step instructional comments for easy learning.
+   Defines the styling rules for the project.
+   Includes modular and responsive styling using CSS variables, flexbox, and media queries.
+   Styled with step-by-step instructional comments for easy learning.
 
 3. **assets/images/**
-Stores images used in the project, such as the Google Developer Group logo and blog post thumbnails.
+   Stores images used in the project, such as the Google Developer Group logo and blog post thumbnails.
 
 ##📱 Responsive Design
 This project is fully responsive, optimized for:
+
 - Desktop: Clean and modern layout for wider screens.
 - Tablet: Adjusts layout to ensure readability and accessibility.
 - Mobile: A stacked layout with larger text for smaller screens.
+
 ## Key tools for responsiveness:
+
 - Media Queries: Used to adapt layout for screen sizes.
-Flexbox: Ensures flexible alignment and spacing.
+  Flexbox: Ensures flexible alignment and spacing.
 
 ##🎯 Project Goals
+
 - Teach Semantic HTML: Understand the importance of proper structure in web development.
 - CSS Styling and Organization: Learn how to create modern, clean designs with reusable styles.
 - Responsive Design: Master techniques to make websites work across all devices.
-Instructional Comments: Provide guidance for beginners to understand the code.
+  Instructional Comments: Provide guidance for beginners to understand the code.
 
 ## Project-snippets
+
 ### Desktop View
+
 ![image](https://github.com/user-attachments/assets/d5163dbb-e98f-4398-b97e-2a8bd3100e39)
 
 ### Mobile View
+
 ![image](https://github.com/user-attachments/assets/e2397c65-5fed-4b3e-b1be-7f2e0807270d)
 ![image](https://github.com/user-attachments/assets/2eeeab1c-7594-4e63-a17b-0be4f0ca239d)
 ![image](https://github.com/user-attachments/assets/ca227576-1d4d-4a5e-b533-4cb6bd0024df)
-
-
-
-

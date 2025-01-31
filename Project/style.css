@@ -1,51 +1,51 @@
 /* General Reset */
 /* Step 1: Reset default margins, padding, and box sizing for all elements */
 * {
-  /* margin: ; 
-    padding: ; 
-    box-sizing: ; */
+  margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
 }
 
 /* Step 2: Set global styles for the body */
 body {
-  /* font-family: ; 
-    line-height: ; 
-    color: ; 
-    background-color: ; 
-    scroll-behavior: ; */
+    font-family: sans-serif; 
+    line-height: 1.5; 
+    color: #ffffff; 
+    background-color: rgb(0, 0, 0); 
+    scroll-behavior:smooth;
 }
 
 /* Navigation Bar Styling */
 /* Step 3: Navigation Bar Styles */
 .navbar {
-  /* background-color: ; 
-    color: ; 
-    padding: ; 
-    box-shadow: ; */
+  background-color: rgb(40, 40, 40); 
+    color: white; 
+    padding: 10px; 
+    /* box-shadow: 10; */
 }
 
 /* Step 4: Navbar Container Styles */
-.navbar--container {
-  /* display: ; 
-    justify-content: ; 
-    align-items: ; 
-    max-width: ; 
-    margin: ; */
+.navbar-container {
+    display:inline; 
+    justify-content:center;
+    align-items:baseline;
+    max-width: 50px; 
+    margin: 10px;
 }
 
 /* Step 5: Logo Container Styles */
 .logo-container {
-  /* display: ; 
-    align-items: ; 
-    gap: ; */
+  display: flex; 
+    align-items:baseline; 
+    gap: 5%;
 }
 
 /* Step 6: Logo Image Styles */
-.logo-img-container img {
-  /* width: ; 
-    height: ; 
-    border-radius: ; 
-    object-fit: ; */
+.logo-container img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover;
 }
 
 /* Step 7: Logo Text Styles */
@@ -213,7 +213,7 @@ body {
 }
 
 /* Step 28: Footer Content Styles */
-.footer-content {
+.footerBox {
   /* display: ; 
     flex-wrap: ; 
     justify-content: ; 
@@ -223,7 +223,7 @@ body {
 }
 
 /* Step 29: Footer Heading Styles */
-.footer-content h4 {
+.footerBox h4 {
   /* margin-bottom: ; 
     color: ; */
 }
